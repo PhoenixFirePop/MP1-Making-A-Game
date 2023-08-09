@@ -15,10 +15,10 @@ export class Player {
         if (input.includes('ArrowRight')) this.x++;
         else if (input.includes('ArrowLeft')) this.x--;
         else if (input.includes('ArrowUp')) this.y--;
+        else if (input.includes('ArrowDown')) this.y++;
         else this.speed = 0;
-        // else if (input.includes('ArrowDown')) this.y++;
 
-        // this.x++;
+        // this.x++; if just move right
 
     }
     draw(context){
